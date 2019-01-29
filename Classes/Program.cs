@@ -6,16 +6,31 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
+    public class Person
+    {
+        public string Name;
+        public void Introduce(string to)
+        {
+            Console.WriteLine("Hi {0}, I am {1}", to, Name);
+        }
+
+        public static Person Parse(string str)
+        {
+            var person = new Person();
+            person.Name = str;
+
+            return person;
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            var person = Person.Parse("Ransford");
+            person.Introduce("Josh"); ;
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            Console.ReadKey();
         }
     }
 }
