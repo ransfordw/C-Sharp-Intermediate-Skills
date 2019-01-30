@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A8392C44-AC0F-4D77-86E8-07CD0AEA3347}</ProjectGuid>
+    <ProjectGuid>{922F5AEF-3B69-48AD-8C0A-B52CB7BDF604}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Methods</RootNamespace>
-    <AssemblyName>Methods</AssemblyName>
+    <RootNamespace>Properties</RootNamespace>
+    <AssemblyName>Properties</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
