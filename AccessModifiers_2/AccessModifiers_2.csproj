@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccessModifiers_2_OnlineStore\AccessModifiers_2_OnlineStore.csproj">
+      <Project>{0B3EC751-4CEB-45F6-BDFF-B5708DE48AFB}</Project>
+      <Name>AccessModifiers_2_OnlineStore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
