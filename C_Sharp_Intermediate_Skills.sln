@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers_2_OnlineSto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_23_Constructors_And_Inheritance", "_23_Constructors_And_Inheritance\_23_Constructors_And_Inheritance.csproj", "{1757C26F-AD05-4644-84CD-83E5EFFDD1AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_24_Upcasting_And_Downcasting", "_24_Upcasting_And_Downcasting\_24_Upcasting_And_Downcasting.csproj", "{EDC2338F-AA97-4854-8EC5-CAAF4D802515}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{1757C26F-AD05-4644-84CD-83E5EFFDD1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1757C26F-AD05-4644-84CD-83E5EFFDD1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1757C26F-AD05-4644-84CD-83E5EFFDD1AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC2338F-AA97-4854-8EC5-CAAF4D802515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC2338F-AA97-4854-8EC5-CAAF4D802515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC2338F-AA97-4854-8EC5-CAAF4D802515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC2338F-AA97-4854-8EC5-CAAF4D802515}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
