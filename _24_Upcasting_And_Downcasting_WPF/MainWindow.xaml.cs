@@ -29,7 +29,7 @@ namespace _24_Upcasting_And_Downcasting_WPF
         {
             // sender. does not have access to the button properties as it is typed as an object
             var button = (Button)sender; // If you know the type being cast is specifically of a certain type
-            var button2 = sender as Button; // returns null if sender cannot be cast into a Button
+            Button button2 = sender as Button; // returns null if sender cannot be cast into a Button
             if (button2 != null)
             {
                 MessageBox.Show(button2.ActualHeight.ToString());
