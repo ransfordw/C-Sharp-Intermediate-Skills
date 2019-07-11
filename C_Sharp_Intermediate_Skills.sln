@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_23_Constructors_And_Inheri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_24_Upcasting_And_Downcasting", "_24_Upcasting_And_Downcasting\_24_Upcasting_And_Downcasting.csproj", "{EDC2338F-AA97-4854-8EC5-CAAF4D802515}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_24_Upcasting_And_Downcasting_WPF", "_24_Upcasting_And_Downcasting_WPF\_24_Upcasting_And_Downcasting_WPF.csproj", "{6A384EE3-DD72-4E29-BFCC-9F56E390B2EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EDC2338F-AA97-4854-8EC5-CAAF4D802515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC2338F-AA97-4854-8EC5-CAAF4D802515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC2338F-AA97-4854-8EC5-CAAF4D802515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A384EE3-DD72-4E29-BFCC-9F56E390B2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A384EE3-DD72-4E29-BFCC-9F56E390B2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A384EE3-DD72-4E29-BFCC-9F56E390B2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A384EE3-DD72-4E29-BFCC-9F56E390B2EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
