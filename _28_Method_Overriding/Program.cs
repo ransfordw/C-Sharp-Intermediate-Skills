@@ -7,14 +7,15 @@ namespace _28_Method_Overriding
     {
         static void Main(string[] args)
         {
+            var canvas = new Canvas();
+
             var shapes = new List<Shape>
             {
                 new Circle(),
                 new Rectangle(),
-                new Triangle()
+                new Triangle(),
             };
 
-            var canvas = new Canvas();
             canvas.DrawShapes(shapes);
 
             Console.ReadKey();

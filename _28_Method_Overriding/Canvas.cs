@@ -8,6 +8,7 @@ namespace _28_Method_Overriding
         {
             foreach (var shape in shapes)
             {
+                shape.DrawFromProperty();
                 shape.Draw();
             }
         }
