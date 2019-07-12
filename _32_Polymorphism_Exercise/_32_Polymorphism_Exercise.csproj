@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88FE3EC9-0961-4F1F-B482-4AAAAB849B61}</ProjectGuid>
+    <ProjectGuid>{0C11A1DC-8D73-4CDA-AF9C-F87B3259FAFE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_29_Abstract_Classes_And_Members</RootNamespace>
-    <AssemblyName>_29_Abstract_Classes_And_Members</AssemblyName>
+    <RootNamespace>_32_Polymorphism_Exercise</RootNamespace>
+    <AssemblyName>_32_Polymorphism_Exercise</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circle.cs" />
+    <Compile Include="DbConnection.cs" />
+    <Compile Include="OracleConnection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Shape.cs" />
+    <Compile Include="SqlConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

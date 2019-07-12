@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_27_Exercises_Tests", "_27_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_28_Method_Overriding", "_28_Method_Overriding\_28_Method_Overriding.csproj", "{B3F1BA0A-3B58-4134-A7FB-B73884E2AE6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_29_Abstract_Classes_And_Members", "_29_Abstract_Classes_And_Members\_29_Abstract_Classes_And_Members.csproj", "{88FE3EC9-0961-4F1F-B482-4AAAAB849B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_32_Polymorphism_Exercise", "_32_Polymorphism_Exercise\_32_Polymorphism_Exercise.csproj", "{0C11A1DC-8D73-4CDA-AF9C-F87B3259FAFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{B3F1BA0A-3B58-4134-A7FB-B73884E2AE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3F1BA0A-3B58-4134-A7FB-B73884E2AE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3F1BA0A-3B58-4134-A7FB-B73884E2AE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FE3EC9-0961-4F1F-B482-4AAAAB849B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FE3EC9-0961-4F1F-B482-4AAAAB849B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FE3EC9-0961-4F1F-B482-4AAAAB849B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FE3EC9-0961-4F1F-B482-4AAAAB849B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C11A1DC-8D73-4CDA-AF9C-F87B3259FAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C11A1DC-8D73-4CDA-AF9C-F87B3259FAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C11A1DC-8D73-4CDA-AF9C-F87B3259FAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C11A1DC-8D73-4CDA-AF9C-F87B3259FAFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
