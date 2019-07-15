@@ -10,7 +10,7 @@ namespace _39_Interfaces_Exercise
             _workflow = new Queue<IActivity>();
         }
 
-        public void AddToQueue(IActivity activity)
+        public void Add(IActivity activity)
         {
             _workflow.Enqueue(activity);
         }

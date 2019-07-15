@@ -11,10 +11,10 @@ namespace _39_Interfaces_Exercise
         static void Main(string[] args)
         {
             var workflow = new Workflow();
-            workflow.AddToQueue(new Upload());
-            workflow.AddToQueue(new ThirdPartyEncoderRequest());
-            workflow.AddToQueue(new MediaOwnerUpdate());
-            workflow.AddToQueue(new MediaStatusUpdate());
+            workflow.Add(new Upload());
+            workflow.Add(new ThirdPartyEncoderRequest());
+            workflow.Add(new MediaOwnerUpdate());
+            workflow.Add(new MediaStatusUpdate());
 
             var workflowEngine = new WorkflowEngine();
             workflowEngine.Run(workflow);

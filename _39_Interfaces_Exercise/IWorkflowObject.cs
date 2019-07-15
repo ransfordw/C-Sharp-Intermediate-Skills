@@ -4,7 +4,7 @@ namespace _39_Interfaces_Exercise
 {
     public interface IWorkflowObject
     {
-        void AddToQueue(IActivity activity);
+        void Add(IActivity activity);
         IEnumerable<IActivity> GetWorkFlow();
     }
 }
