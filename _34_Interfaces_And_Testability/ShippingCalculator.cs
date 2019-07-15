@@ -2,7 +2,7 @@
 
 namespace _34_Interfaces_And_Testability
 {
-    internal class ShippingCalculator
+    public class ShippingCalculator : IShippingCalculator
     {
         public ShippingCalculator()
         {

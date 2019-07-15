@@ -2,13 +2,13 @@
 
 namespace _34_Interfaces_And_Testability
 {
-    internal class Shipment
+    public class Shipment
     {
         public Shipment()
         {
         }
 
-        public object Cost { get; set; }
+        public float Cost { get; set; }
         public DateTime ShippingDate { get; internal set; }
     }
 }

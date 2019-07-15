@@ -2,11 +2,18 @@
 
 namespace _34_Interfaces_And_Testability
 {
-    internal class Order
+    public class Order
     {
         public DateTime DatePlaced { get; set; }
         public float TotalPrice { get; set; }
-        public bool IsShipped { get; internal set; }
-        public Shipment Shipment { get; internal set; }
+        private bool _isShipped;
+
+        public bool IsShipped
+        {
+            get { return (Shipment!=null); }
+            set { _isShipped = (Shipment!=null); }
+        }
+
+        public Shipment Shipment { get; set; }
     }
 }
