@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_37_Interfaces_And_Polymorp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_39_Interfaces_Exercise", "_39_Interfaces_Exercise\_39_Interfaces_Exercise.csproj", "{5A7A12F4-3C85-4A3D-8CEC-154A615C1C2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_39_Interfaces_Exercise_Tests", "_39_Interfaces_Exercise_Tests\_39_Interfaces_Exercise_Tests.csproj", "{53BC3068-BB5C-4C31-B800-22B73E945565}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{5A7A12F4-3C85-4A3D-8CEC-154A615C1C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A7A12F4-3C85-4A3D-8CEC-154A615C1C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A7A12F4-3C85-4A3D-8CEC-154A615C1C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BC3068-BB5C-4C31-B800-22B73E945565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BC3068-BB5C-4C31-B800-22B73E945565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BC3068-BB5C-4C31-B800-22B73E945565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BC3068-BB5C-4C31-B800-22B73E945565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

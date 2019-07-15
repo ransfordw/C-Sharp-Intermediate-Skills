@@ -4,16 +4,20 @@ namespace _39_Interfaces_Exercise
 {
     public class Workflow : IWorkflowObject
     {
+        private readonly Queue<IActivity> _workflow;
         public Workflow()
         {
-            WorkFlowQueue = new Queue<IActivity>();
+            _workflow = new Queue<IActivity>();
         }
-
-        public Queue<IActivity> WorkFlowQueue { get ; set; }
 
         public void AddToQueue(IActivity activity)
         {
-            WorkFlowQueue.Enqueue(activity);
+            _workflow.Enqueue(activity);
+        }
+
+        public IEnumerable<IActivity> GetWorkFlow()
+        {
+            return _workflow;
         }
     }
 }
