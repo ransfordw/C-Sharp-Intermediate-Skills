@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F44DB56B-E936-417D-87D6-B940AE1A6CE2}</ProjectGuid>
+    <ProjectGuid>{98B71452-2BE5-4E65-88F7-5C520F6EA3E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_36_Multiple_Inheritance</RootNamespace>
-    <AssemblyName>_36_Multiple_Inheritance</AssemblyName>
+    <RootNamespace>_37_Interfaces_And_Polymorphism</RootNamespace>
+    <AssemblyName>_37_Interfaces_And_Polymorphism</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IDraggable.cs" />
-    <Compile Include="IDroppable.cs" />
-    <Compile Include="Position.cs" />
+    <Compile Include="INotificationChannel.cs" />
+    <Compile Include="Mail.cs" />
+    <Compile Include="MailNotificationChannel.cs" />
+    <Compile Include="Message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Size.cs" />
+    <Compile Include="SMSNotificationChannel.cs" />
+    <Compile Include="Video.cs" />
+    <Compile Include="VideoEncoder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
