@@ -1,0 +1,4 @@
+INFO: Migration started at {0}7/15/2019 11:25:35 AM
+INFO: Migrating finished at {0}7/15/2019 11:25:35 AM
+INFO: Migration started at 7/15/2019 11:26:16 AM
+INFO: Migrating finished at 7/15/2019 11:26:16 AM
